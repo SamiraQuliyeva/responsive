@@ -1,0 +1,16 @@
+#rbox
+    .box
+        .minibox
+            width: 100px
+            height: 100px
+            transition: 2s
+            border: 1px solid #e14e4e
+            &:hover
+                border: 5px solid black
+                background-color: #1e218f
+                width: 300px
+    @media screen and ( max-width: 576px  )
+        .minibox
+            width: 200px
+            height: 200px
+            background-color: #b01a6f
