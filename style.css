@@ -42,4 +42,20 @@ body section {
   }
 }
 
-@impor;/*# sourceMappingURL=style.css.map */
+#rbutton .textbox .btn {
+  background-color: #087204;
+}
+#rbutton .textbox h1 {
+  font-size: 17px;
+  font-weight: 17px;
+  padding: 10px 15px;
+}
+#rbutton .textbox:hover .btn {
+  background-color: #f6fe12;
+  transition: 1s;
+}
+@media screen and (max-width: 576px) {
+  #rbutton .btn {
+    padding: 5px 10px;
+  }
+}/*# sourceMappingURL=style.css.map */
