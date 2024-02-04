@@ -44,6 +44,7 @@ body section {
 
 #rbutton .textbox .btn {
   background-color: #087204;
+  border: 1px solid white;
 }
 #rbutton .textbox h1 {
   font-size: 17px;
@@ -53,9 +54,30 @@ body section {
 #rbutton .textbox:hover .btn {
   background-color: #f6fe12;
   transition: 1s;
+  border: 1px solid white;
 }
 @media screen and (max-width: 576px) {
   #rbutton .btn {
-    padding: 5px 10px;
+    padding: 10px 15px;
+  }
+}
+
+#rminibox .box .minibox {
+  width: 100px;
+  height: 100px;
+  transition: 2s;
+  border: 1px solid #130303;
+  background-color: #a0c76a;
+}
+#rminibox .box .minibox:hover {
+  background-color: #66678d;
+  border: 1px solid #130303;
+}
+@media screen and (max-width: 776px) {
+  #rminibox .minibox {
+    border: 1px solid #130303;
+    width: 200px;
+    height: 200px;
+    background-color: #c40c0c;
   }
 }/*# sourceMappingURL=style.css.map */
